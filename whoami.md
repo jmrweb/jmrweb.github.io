@@ -1,3 +1,8 @@
+---
+layout: template
+title: whoami
+---
+
 ### whoami
 
 I am James read, a Cybersecurity Master's student ad Old Dominion Unvsersity.
