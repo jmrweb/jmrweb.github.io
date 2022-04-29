@@ -1,3 +1,8 @@
+---
+layout: default
+title: CVCSA
+---
+
 # Coastal Virginia Cybersecurity Student Association
 
 I helped founding the CVCSA in 2020 as part of the COVA CCI Innovate Cyber program and currently serve as its Director.
