@@ -18,14 +18,25 @@
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04AA6D;
-  color: white;
+  color: red;
+}
+  
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
   
 <div class="topnav">
-  <nav>
-    <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a>
-    <a href="/whoami.html" {% if page.url == "/whoami.html" %}style="color: red;"{% endif %}>whoami</a>
-  </nav>
+  <div class="topnav-centered">
+    <nav>
+      <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a>
+      <a href="/whoami.html" {% if page.url == "/whoami.html" %}style="color: red;"{% endif %}>whoami</a>
+    </nav>
+  </div>
 </div>
 
