@@ -4,6 +4,8 @@
   link: /whoami.html
 - name: Projects
   link: /projects.html
+- name: WriteUps
+  link: /writeups.html
 - name: CVCSA
   link: /cvcsa.html
 - name: Coursework
