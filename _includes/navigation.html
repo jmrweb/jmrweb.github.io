@@ -1,14 +1,4 @@
-<div class="topnav">
-  <nav>
-    <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
-      Home
-    </a>
-    <a href="/whoami.html" {% if page.url == "/whoami.html" %}style="color: red;"{% endif %}>
-      whoami
-    </a>
-  </nav>
-</div>
-
+<style>
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -30,3 +20,15 @@
   background-color: #04AA6D;
   color: white;
 }
+</style>
+  
+<div class="topnav">
+  <nav>
+    <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
+      Home
+    </a>
+    <a href="/whoami.html" {% if page.url == "/whoami.html" %}style="color: red;"{% endif %}>
+      whoami
+    </a>
+  </nav>
+</div>
