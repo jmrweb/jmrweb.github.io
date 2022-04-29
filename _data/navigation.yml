@@ -2,3 +2,13 @@
   link: /
 - name: whoami
   link: /whoami.html
+- name: Projects
+  link: /projects.html
+- name: CVCSA
+  link: /cvcsa.html
+- name: Coursework
+  link: /courswork.html
+- name: Resume
+  link: /resume.html
+
+
