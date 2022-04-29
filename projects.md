@@ -36,7 +36,7 @@
     James Read
   </details>
   
-  [Link](https://github.com/jmrweb/tunx)
+  [Repository](https://github.com/jmrweb/tunx)
 </p>  
 </details>
 
