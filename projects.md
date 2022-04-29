@@ -1,8 +1,3 @@
----
-layout: default
-title: Projects
----
-
 # Coding and other Projects
 
 ### tunx
