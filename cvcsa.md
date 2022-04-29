@@ -8,4 +8,4 @@ The CVCSA seeks to support Cybersecurity Students throughout coastal Virginia by
 
 The CVCSA recently held its first ever CTF event: CyberForge
 
-![Image](https://github.com/jmrweb/jmrweb.github.io/assets/images/cyberforge-group2.jpg)
+![Image](https://jmrweb.github.io/assets/images/cyberforge-group2.jpg)
