@@ -5,7 +5,7 @@
 A tool for extracting tcp traffic from icmp data field tunneling
   
 <details>
-  <summary>README</summary>
+  <summary>readme</summary>
 
 <div markdown="1">
 
