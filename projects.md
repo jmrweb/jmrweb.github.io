@@ -5,7 +5,9 @@
 A tool for extracting tcp traffic from icmp data field tunneling
   
 <details>
-  <summary>R3@DM3</summary>
+  <summary>README</summary>
+
+<div markdown="1">
 
 # tunx
 ### Name:
@@ -35,9 +37,8 @@ python3 tunx -o 5 sneakers.pcap extract2.pcap
 ### Author:
 James Read
 
+</div>
 
 </details>
   
 [Repository](https://github.com/jmrweb/tunx)
-
-### This is a **heading**!
