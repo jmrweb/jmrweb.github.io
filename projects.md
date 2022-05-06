@@ -5,9 +5,9 @@
 A tool for extracting tcp traffic from icmp data field tunneling
   
 <details>
-  <summary>R3@dm3</summary>
+  <summary>R3@DM3</summary>
 
-```
+
 # tunx
 ### Name:
 tunx, tunnel extractor
@@ -40,3 +40,5 @@ James Read
 </details>
   
 [Repository](https://github.com/jmrweb/tunx)
+
+### This is a **heading**!
