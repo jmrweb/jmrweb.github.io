@@ -21,7 +21,7 @@
 title: jmrweb.io
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my ePortfolio!  Here you can put my whoami page for a little about me and a contact email, view my github projects, examine my box writeups for Offensive Security's 'Proving Grounds', read some of my academic papers, and find information Virginia Cybersecurity Student Association.  
+  Welcome to my ePortfolio!  Here you can put my whoami page for a little about me and a contact email, view my github projects, examine my box writeups for Offensive Security's 'Proving Grounds', read some of my academic papers, and find information about the Costal Virginia Cybersecurity Student Association.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jmrweb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

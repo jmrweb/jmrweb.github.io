@@ -7,7 +7,7 @@
   <summary>View</summary>
 
 <div markdown="1">
-<embed src="https://jmrweb.github.io/assets/documents/Biggest_Cyber_Threat_Actor.pdf" type="application/pdf" />
+<a href="https://jmrweb.github.io/assets/documents/Biggest_Cyber_Threat_Actor.pdf" target="_blank">Open in new window.</a> <embed src="https://jmrweb.github.io/assets/documents/Biggest_Cyber_Threat_Actor.pdf" width="100%" height="1285px" />
 </div>
 
 </details>
@@ -19,7 +19,7 @@
   <summary>View</summary>
 
 <div markdown="1">
-<a href="https://jmrweb.github.io/assets/documents/Implementing_the_NIST_Framework.pdf" target="_blank">Open in new window.</a> <embed src="https://jmrweb.github.io/assets/documents/Implementing_the_NIST_Framework.pdf" width="100%" height="850px" />
+<a href="https://jmrweb.github.io/assets/documents/Implementing_the_NIST_Framework.pdf" target="_blank">Open in new window.</a> <embed src="https://jmrweb.github.io/assets/documents/Implementing_the_NIST_Framework.pdf" width="100%" height="1285px" />
 </div>
 
 </details>
