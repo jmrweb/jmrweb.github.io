@@ -7,7 +7,7 @@
   <summary>View</summary>
 
 <div markdown="1">
-<embed src="https://jmrweb.github.io/assets/documents/Biggest_Cyber_Threat_Actor.pdf" width=100% height=1350px type="application/pdf" />
+<embed src="https://jmrweb.github.io/assets/documents/Biggest_Cyber_Threat_Actor.pdf" type="application/pdf" />
 </div>
 
 </details>
