@@ -2,7 +2,7 @@
 
 ### tunx
   
-A tool for extracting tcp traffic from icmp data field tunneling
+A tool for extracting tcp traffic from icmp data field tunneling.
   
 <details>
   <summary>README</summary>
@@ -42,3 +42,32 @@ A tool for extracting tcp traffic from icmp data field tunneling
 </details>
   
 [Repository](https://github.com/jmrweb/tunx)
+
+
+### feet
+
+A TUI tool for automated scanning and enumeration that is exstensible with 3rd party plugins.
+
+<details>
+  <summary>README</summary>
+
+<div markdown="1">
+
+> # feet
+> ### Name:
+> feet, friendly extensible enumeration tool
+>
+> ### Synopis:
+> python3 feet
+>
+> ### Description:
+> An application for automated scanning and emumeration using a mouse driven, text user interface.  It is extensible via third party plugins as definied in the API.  feet is built on Textual, Reconnoitre and Redis.
+>
+> ### Author:
+> James Read
+
+</div>
+
+</details>
+
+[Repository](https://github.com/jmrweb/feet)

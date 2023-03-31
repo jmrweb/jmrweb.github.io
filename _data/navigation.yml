@@ -1,5 +1,3 @@
-- name: README
-  link: /
 - name: whoami
   link: /whoami.html
 - name: Projects
@@ -10,7 +8,4 @@
   link: /cvcsa.html
 - name: Coursework
   link: /coursework.html
-- name: Resume
-  link: resume.html
-
 
