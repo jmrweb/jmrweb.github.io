@@ -8,3 +8,4 @@ Walkthroughs for publicly available vulnerable boxes.
 
 >>  [SunsetMidnight](/assets/documents/SunsetMidnight.html)
 
+>>  [Solstice](assets/documents/Solstice.html)

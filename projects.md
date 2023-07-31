@@ -46,7 +46,7 @@
 
 ### feet
 
-> A TUI tool for automated scanning and enumeration that is exstensible with 3rd party plugins.
+> A [work in progess] TUI tool for automated scanning and enumeration that is exstensible with 3rd party plugins.
 >
 > <details>
 >   <summary>README</summary>
