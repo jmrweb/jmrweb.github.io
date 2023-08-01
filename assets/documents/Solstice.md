@@ -103,6 +103,8 @@ Further enumeration of the open ports reveals something interesting on the HTTP 
 
 On the main page we see:
 
+![[solstice_main_page.png]]
+
 ![Image](/assets/images/solstice_main_page.png)
 
 If we follow the link to for "Book List" we find a PHP page with exposed parameters in the address bar.
